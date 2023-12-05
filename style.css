@@ -141,7 +141,7 @@ p{
     justify-content: space-between;
     align-items: center;
 }
-.box1 h3{
+.box1 h3, .box2 h3{
     color: #002B9A;
     font-size: 30px;
     font-weight: 700;
@@ -153,14 +153,14 @@ p{
     left: 80px;
     top: 1px;
 }
-.text p{
+.text p, .text2 p{
     color: #555;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 50px;
 }
-.text button{
+.text button, .text2 button{
     border-radius: 100px;
     border: 2px solid #0048FF;
     display: inline-flex;
@@ -172,7 +172,7 @@ p{
     font-size: 20px;
     font-weight: 400;
 }
-.text svg{
+.text svg, .text2 svg{
     stroke-width: 2px;
     stroke: #B2BAFF;
 }
@@ -193,4 +193,16 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.box2 img{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    left: 100px;
+}
+.box2 .text2{
+    position: absolute;
+    right: 80px;
+    top: 1px;
+    width: 40%;
 }

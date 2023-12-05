@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    margin: 0;
+    font-family: GT Walsheim Pro;
+}
+nav{
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+ul{
+    display: flex;
+    gap: 90px;
+}
+li, a{
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+nav button{
+    border: 2px solid #FFC1DC;
+    border-radius: 100px;
+    padding: 10px 23px;
+    cursor: pointer;
+}
+.content{
+    padding: 10px 80px;
+}
+.main{
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+.mainBox{
+    width: 50%;
+}
+.main h1{
+    background: linear-gradient(91deg, #0048FF 3.42%, #D6008D 82.66%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+    width: 595.188px;
+    height: 100.113px;
+    flex-shrink: 0;
+}
+p{
+    color: #555;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: -20px;
+}
+.btn{
+    border: none;
+    border-radius: 100px;
+    background: linear-gradient(238deg, #09153F 1.24%, #002BC2 57.38%);
+    padding: 10px 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.svg{
+    stroke-width: 2px;
+    stroke: #B2BAFF;
+    width: 20px;
+}
+.landing{
+    height: 310px;
+    width: 50%;
+}
+#about{
+    position: relative;
+    margin-top: 100px;
+    flex-shrink: 0;
+    background-color: #EDF7FF;
+    width: 1200px;
+    height: 320px;
+    border-radius: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shape{
+    position: absolute;
+    border-radius: 500px 0px 0px 500px;
+    border-right: 3px solid #C4D4FF;
+    background: #FFF;
+    width: 350px;
+    height: 280px;
+    color: #C4D4FF;
+    top: 20px;
+    left: 20px;
+}
+.shape h2{
+    position: absolute;
+    color: #0048FF;
+    font-size: 40px;
+    font-weight: 700;
+    top: 55px;
+    left: 70px;
+}
+#about p{
+    position: absolute;
+    color: #222;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    width: 50%;
+    right: 150px;
+    top: 100px;
+}
+#services  h2{
+    text-align: center;
+    color: #0048FF;
+    font-size: 40px;
+    font-weight: 700;
+}
+.box1{
+    position: relative;
+    border-radius: 0px 500px 500px 0px;
+    margin-top: 40px;
+    flex-shrink: 0;
+    background-color: #FFF5FF;
+    width: 1200px;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1 h3{
+    color: #002B9A;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.text{
+    position: absolute;
+    width: 40%;
+    left: 80px;
+    top: 1px;
+}
+.text p{
+    color: #555;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.text button{
+    border-radius: 100px;
+    border: 2px solid #0048FF;
+    display: inline-flex;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #0048FF;
+    font-size: 20px;
+    font-weight: 400;
+}
+.text svg{
+    stroke-width: 2px;
+    stroke: #B2BAFF;
+}
+.box1 img{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    right: 100px;
+}
+.box2{
+    position: relative;
+    border-radius: 500px 0px 0px 500px;
+    margin-top: 40px;
+    flex-shrink: 0;
+    background-color: #F5F8FF;
+    width: 1200px;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

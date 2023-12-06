@@ -18,7 +18,7 @@ nav{
 }
 nav ul{
     display: flex;
-    gap: 90px;
+    gap: 50px;
 }
 nav li, a{
     color: black;
@@ -310,6 +310,7 @@ form .roundbig2{
 }
 .inputs button{
     border: none;
+    color: #fff;
     margin-top: 6px;
     border-radius: 5px;
     background: #0048FF;

@@ -11,7 +11,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 80px;
+    padding: 15px 140px;
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -37,7 +37,7 @@ button{
     cursor: pointer;
 }
 .content{
-    padding: 10px 80px;
+    padding: 10px 140px;
 }
 .main{
     display: flex;
@@ -91,7 +91,7 @@ p{
     margin-bottom: 140px;
     flex-shrink: 0;
     background-color: #EDF7FF;
-    width: 1200px;
+    width: 1100px;
     height: 320px;
     border-radius: 200px;
     display: flex;
@@ -124,7 +124,7 @@ p{
     font-weight: 400;
     line-height: 40px;
     width: 50%;
-    right: 150px;
+    right: 110px;
     top: 100px;
 }
 #services{
@@ -142,7 +142,7 @@ p{
     margin-top: 40px;
     flex-shrink: 0;
     background-color: #FFF5FF;
-    width: 1200px;
+    width: 1100px;
     height: 320px;
     display: flex;
     justify-content: space-between;
@@ -187,7 +187,7 @@ p{
     position: absolute;
     width: 300px;
     height: 250px;
-    right: 100px;
+    right: 120px;
 }
 .box2{
     position: relative;
@@ -195,7 +195,7 @@ p{
     margin-top: 40px;
     flex-shrink: 0;
     background-color: #F5F8FF;
-    width: 1200px;
+    width: 1100px;
     height: 320px;
     display: flex;
     justify-content: space-between;
@@ -219,7 +219,7 @@ p{
 #map .box3{
     position: relative;
     background-color: #F9F9F9;
-    width: 1200px;
+    width: 1100px;
     height: 320px;
     margin-top: 40px;
     display: flex;
@@ -252,19 +252,19 @@ p{
 form{
     position: relative;
     background-color: #EFF7FF;
-    width: 1200px;
+    width: 1100px;
     height: 600px;
     padding: 2px 20px;
 }
 form .round1{
     position: absolute;
-    left: 60px;
-    top: 39px;
+    left: 30px;
+    top: 48px;
     animation: rotateround 2s linear infinite;
 }
 form .round2{
     position: absolute;
-    right: 60px;
+    right: 30px;
     bottom: 70px;
     animation: rotateround 2s linear infinite; 
 }
@@ -321,7 +321,7 @@ form .roundbig2{
 }
 footer{
     background-color: #333;
-    width: 1200px;
+    width: 1100px;
     height: 70px;
     flex-shrink: 0;
     display: flex;
@@ -337,5 +337,5 @@ footer p{
     font-weight: 400;
 }
 footer .moveleft{
-    margin-right: 450px;
+    margin-right: 400px;
 }

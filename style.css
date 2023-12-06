@@ -16,11 +16,11 @@ nav{
     width: 100%;
     z-index: 1;
 }
-ul{
+nav ul{
     display: flex;
     gap: 90px;
 }
-li, a{
+nav li, a{
     color: black;
     list-style-type: none;
     text-decoration: none;
@@ -33,12 +33,16 @@ nav button{
     padding: 10px 23px;
     cursor: pointer;
 }
+button{
+    cursor: pointer;
+}
 .content{
     padding: 10px 80px;
 }
 .main{
     display: flex;
-    margin-top: 120px;
+    margin-top: 150px;
+    margin-bottom: 200px;
     justify-content: space-between;
 }
 .mainBox{
@@ -84,7 +88,7 @@ p{
 }
 #about{
     position: relative;
-    margin-top: 100px;
+    margin-bottom: 140px;
     flex-shrink: 0;
     background-color: #EDF7FF;
     width: 1200px;
@@ -123,7 +127,10 @@ p{
     right: 150px;
     top: 100px;
 }
-#services  h2{
+#services{
+    margin-top: 100px;
+}
+#services h2, #map h2, form h2{
     text-align: center;
     color: #0048FF;
     font-size: 40px;
@@ -205,4 +212,129 @@ p{
     right: 80px;
     top: 1px;
     width: 40%;
+}
+#map{
+    margin-top: 100px;
+}
+#map .box3{
+    position: relative;
+    background-color: #F9F9F9;
+    width: 1200px;
+    height: 320px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box3 h3{
+    position: absolute;
+    color: #002B9A;
+    font-size: 30px;
+    font-weight: 700;
+    top: 120px;
+    left: 80px;
+}
+.box3 ul{
+    position: absolute;
+    width: 40%;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    right: 100px;
+    color: #555;
+}
+.underline{
+    text-decoration-line: underline;
+    font-size: 18px;
+    text-align: center;
+    color: #002B9A;
+}
+form{
+    position: relative;
+    background-color: #EFF7FF;
+    width: 1200px;
+    height: 600px;
+    padding: 2px 20px;
+}
+form .round1{
+    position: absolute;
+    left: 60px;
+    top: 39px;
+    animation: rotateround 2s linear infinite;
+}
+form .round2{
+    position: absolute;
+    right: 60px;
+    bottom: 70px;
+    animation: rotateround 2s linear infinite; 
+}
+@keyframes rotateround{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+form .roundsmall2{
+    transform: rotate(-42.556deg);
+    flex-shrink: 0;
+    top: -150px;
+}
+form .roundbig2{
+    transform: rotate(-42.556deg);
+    flex-shrink: 0;
+}
+.inputs{
+    text-align: center;
+}
+.inputs input{
+    border-radius: 5px;
+    border: 1px solid #E4E4E4;
+    background: #FFF;
+    width: 600px;
+    height: 50px;
+    flex-shrink: 0;
+    padding-left: 20px;
+    margin-bottom: 12px;
+}
+.inputs textarea{
+    border-radius: 5px;
+    border: 1px solid #E4E4E4;
+    background: #FFF;
+    width: 600px;
+    height: 200px;
+    flex-shrink: 0;
+    padding: 20px;
+    font-size: 15px;
+}
+.inputs button{
+    border: none;
+    margin-top: 6px;
+    border-radius: 5px;
+    background: #0048FF;
+    display: inline-flex;
+    padding: 10px 100px;
+    align-items: flex-start;
+    gap: 10px;
+}
+footer{
+    background-color: #333;
+    width: 1200px;
+    height: 70px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+    padding-left: 40px;
+    margin-top: 100px;
+}
+footer p{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+footer .moveleft{
+    margin-right: 450px;
 }

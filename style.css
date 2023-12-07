@@ -9,6 +9,7 @@ body{
 nav{
     background-color: #F9F9F9;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 15px 140px;
@@ -338,4 +339,233 @@ footer p{
 }
 footer .moveleft{
     margin-right: 400px;
+}
+.fas{
+    display: none;
+}
+@media screen and (max-width: 800px) {
+    body{
+        overflow-x: none;
+    }
+    .content{
+        padding: 10px 40px;
+    }
+    nav{
+        padding: 10px 40px;
+        height: 120px;
+    }
+    .fas{
+        cursor: pointer;
+    }
+    nav ul, nav button{
+        display: none;
+    }
+    .main{
+        margin-top: 150px;
+        flex-direction: column;
+    }
+    .mainBox{
+        width: 100%;
+    }
+    .main img{
+        margin-top: 30px;
+        width: 100%;
+        margin-left: -30px;
+    }
+    #about{
+        position: relative;
+        margin-bottom: 140px;
+        background-color: #EDF7FF;
+        width: 400px;
+        height: 800px;
+        border-radius: 200px;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .shape{
+        position: absolute;
+        border-radius: 500px 500px 0px 0px;
+        border-bottom: 3px solid #C4D4FF;
+        border-right: none;
+        background: #FFF;
+        width: 330px;
+        height: 280px;
+        color: #C4D4FF;
+        top: 20px;
+        left: 36px;
+    }
+    .shape h2{
+        position: absolute;
+        color: #0048FF;
+        font-size: 40px;
+        font-weight: 700;
+        top: 55px;
+        left: 80px;
+        text-align: center;
+    }
+    #about p{
+        position: absolute;
+        color: #222;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        width: 50%;
+        left: 100px;
+        top: 350px;
+    }
+    .box1{
+        position: relative;
+        border-radius: 0px 0px 500px 500px;
+        background-color: #FFF5FF;
+        width: 400px;
+        height: 800px;
+        flex-direction: column;
+        margin: 40px auto;
+    }
+    .box1 h3{
+        color: #002B9A;
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+    .text{
+        position: absolute;
+        width: 100%;
+        left: 40px;
+        top: 20px;
+    }
+    .text p, .text2 p{
+        color: #555;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 40px;
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    .text button, .text2 button{
+        border-radius: 100px;
+        border: 2px solid #0048FF;
+        display: inline-flex;
+        padding: 10px 30px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #0048FF;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .text svg, .text2 svg{
+        stroke-width: 1px;
+        stroke: #B2BAFF;
+    }
+    .box1 img{
+        position: absolute;
+        width: 300px;
+        height: 250px;
+        bottom: 100px;
+        left: 50px;
+    }
+    .box2{
+        position: relative;
+        border-radius: 500px 500px 0px 0px;
+        flex-shrink: 0;
+        background-color: #F5F8FF;
+        width: 400px;
+        height: 800px;
+        flex-direction: column;
+        margin: 40px auto;
+    }
+    .box2 img{
+        position: absolute;
+        width: 300px;
+        height: 250px;
+        left: 50px;
+        top: 60px;
+    }
+    .box2 .text2{
+        position: absolute;
+        right: 80px;
+        top: 350px;
+        width: 100%;
+        left: 40px;
+    }
+    .box2 h3{
+        color: #002B9A;
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 50px;
+        margin-left: -20px;
+    }
+    #map .box3{
+        position: relative;
+        background-color: #F9F9F9;
+        width: 400px;
+        height: 500px;
+        flex-direction: column;
+        margin: 40px auto;
+    }
+    .box3 h3{
+        position: absolute;
+        color: #002B9A;
+        font-size: 30px;
+        font-weight: 700;
+        top: 10px;
+        left: 50px;
+    }
+    .box3 ul{
+        position: absolute;
+        width: 80%;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        left: 30px;
+        color: #555;
+        top: 80px;
+    }
+    .box3 li{
+        margin-top: 20px;
+    }
+    form{
+        position: relative;
+        background-color: #EFF7FF;
+        width: 400px;
+        height: 600px;
+        padding: 2px 20px;
+        margin: 0 auto;
+    }
+    form .roundbig2,
+     .roundsmall2,
+     .round2,
+     .round1{
+        display: none;
+    }
+    .inputs{
+        text-align: center;
+    }
+    .inputs input{
+        width: 100%;
+    }
+    .inputs textarea{
+        width: 100%;
+    }
+    footer{
+        width: 400px;
+        height: 70px;
+        flex-direction: column;
+        padding-top: 25px;
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer p{
+        text-align: center;
+        color: #FFF;
+        font-size: 15px;
+        font-weight: 400;
+        width: 100%;
+        margin-left: -40px;
+    }
+    footer .moveleft{
+        margin-left: 370px;
+    }
 }
